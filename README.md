@@ -58,7 +58,6 @@ package.json 默认配置
 
 ![fe6vc build 例子](./public/build.gif)
 
-
 ## 更新历史
 
 ### 0.1.0
