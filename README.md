@@ -60,6 +60,9 @@ package.json 默认配置
 
 ## 更新历史
 
+### 0.2.0
+   - 资源文件支持自定义字体[#c9a96bd](https://github.com/fe6/vcmd/pull/5/commits/c9a96bdedc0ff422e70088709c6d59cbda524b75)
+
 ### 0.1.0
    - 本地开发命令 `fe6vc server` 或者 `fe6vc s` [#2b099c6](https://github.com/fe6/vcmd/pull/1/commits/45ff9d46a4461720449f74b755c874a93d4ab9ca)
    - 本地打包压缩版命令 `fe6vc build` 或者 `fe6vc b` [#45ff9d4](https://github.com/fe6/vcmd/pull/1/commits/45ff9d46a4461720449f74b755c874a93d4ab9ca)
