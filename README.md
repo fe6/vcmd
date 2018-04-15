@@ -1,6 +1,10 @@
 # vcmd
 > 本地运行 Vue.js 组件的命令行管理工具。主要是利用 [@fe6/fecli](https://www.npmjs.com/package/@fe6/fecli) 自动化创建出来的[Vue.js 组件模板](https://github.com/iq9891/fecli-cpt-tpl-vue) 本地开发及打包用的.
 
+[![@fe6/vcmd](https://img.shields.io/npm/v/@fe6/vcmd.svg?style=flat-square)](https://www.npmjs.org/package/@fe6/vcmd)
+[![NPM downloads](http://img.shields.io/npm/dm/@fe6/vcmd.svg?style=flat-square)](https://npmjs.org/package/@fe6/vcmd)
+[![NPM downloads](https://img.shields.io/npm/dt/@fe6/vcmd.svg?style=flat-square)](https://npmjs.org/package/@fe6/vcmd)
+
 ## 使用
 
 ```
@@ -8,7 +12,7 @@ $ fe6vc server
 $ fe6vc build
 ```
 
-package.json 配置的例子
+package.json 默认配置
 
 ```
 ({
@@ -38,6 +42,8 @@ package.json 配置的例子
     - 渲染 vue
     - 实时编译
 
+![fe6vc server 例子](./public/server.gif)
+
 ### fe6vc build
   - style
     - 语法检测
@@ -49,6 +55,9 @@ package.json 配置的例子
     - ts 转译
     - 打包
     - 语法低版本兼容
+
+![fe6vc build 例子](./public/build.gif)
+
 
 ## 更新历史
 
