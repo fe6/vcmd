@@ -2,42 +2,42 @@
 
 module.exports = {
   root: true,
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   parserOptions: {
-    sourceType: "module"
+    sourceType: 'module',
   },
   env: {
     browser: true,
   },
-  extends: "airbnb-base",
+  extends: 'airbnb-base',
   // required to lint *.vue files
   plugins: [
-    "html",
+    'html',
     // "markdowm"
   ],
   // check if imports actually resolve
-  "settings": {
-    "import/resolver": {
-      "webpack": {
-        "config": "lib/config/webpack.base.config.js"
-      }
-    }
+  settings: {
+    'import/resolver': {
+      webpack: {
+        config: 'lib/config/webpack.base.config.js',
+      },
+    },
   },
   // add your custom rules here
-  "rules": {
-    "import/extensions": "off",
-    "import/no-unresolved": "off",
-    "spaced-comment": "off",
-    "no-dupe-keys": "off",
-    "no-console": "off",
-    "no-plusplus": "off",
+  rules: {
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
+    'spaced-comment': 'off',
+    'no-dupe-keys': 'off',
+    'no-console': 'off',
+    'no-plusplus': 'off',
     // allow optionalDependencies
-    "import/no-extraneous-dependencies": ["error", {
-      "optionalDependencies": ["test/unit/index.js"]
+    'import/no-extraneous-dependencies': ['error', {
+      optionalDependencies: ['test/unit/index.js'],
     }],
-    "no-bitwise": ["error", { "allow": ["&", ">>"] }],
-    "no-param-reassign": ["error", { "props": false }],
+    'no-bitwise': ['error', { allow: ['&', '>>'] }],
+    'no-param-reassign': ['error', { props: false }],
     // allow debugger during development
-    "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0
-  }
-}
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+  },
+};
