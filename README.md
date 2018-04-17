@@ -65,7 +65,7 @@ package.json 默认配置
 
 ## 更新历史
 
-### 0.3.0
+### 0.5.0
    - 增加语法检测[#d97a4e1](https://github.com/fe6/vcmd/pull/8/commits/d97a4e1a1fd3ce9db0d51548b33807ffecd639c3)
 
 ### 0.2.0
