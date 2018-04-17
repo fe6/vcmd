@@ -10,6 +10,7 @@
 ```
 $ fe6vc server
 $ fe6vc build
+$ fe6vc lint
 ```
 
 package.json 默认配置
@@ -56,9 +57,16 @@ package.json 默认配置
     - 打包
     - 语法低版本兼容
 
-![fe6vc build 例子](./public/build.gif)
+### fe6vc lint
+  - style 语法检测
+  - ts 语法检测
+
+![fe6vc lint 例子](./public/lint.gif)
 
 ## 更新历史
+
+### 0.3.0
+   - 增加语法检测[#d97a4e1](https://github.com/fe6/vcmd/pull/8/commits/d97a4e1a1fd3ce9db0d51548b33807ffecd639c3)
 
 ### 0.2.0
    - 资源文件支持自定义字体[#c9a96bd](https://github.com/fe6/vcmd/pull/5/commits/c9a96bdedc0ff422e70088709c6d59cbda524b75)
