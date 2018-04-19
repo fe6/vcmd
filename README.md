@@ -65,6 +65,9 @@ package.json 默认配置
 
 ## 更新历史
 
+### 0.5.1
+   - 修复样式打包错误[#76445c0](https://github.com/fe6/vcmd/commit/76445c0a232097fb47d4d9612b2dcda08777aca4)
+
 ### 0.5.0
    - 增加语法检测[#d97a4e1](https://github.com/fe6/vcmd/pull/8/commits/d97a4e1a1fd3ce9db0d51548b33807ffecd639c3)
 
