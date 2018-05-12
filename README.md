@@ -1,4 +1,6 @@
 # vcmd
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/fe6/vcmd.svg)](https://greenkeeper.io/)
 > 本地运行 Vue.js 组件的命令行管理工具。主要是利用 [@fe6/fecli](https://www.npmjs.com/package/@fe6/fecli) 自动化创建出来的[Vue.js 组件模板](https://github.com/iq9891/fecli-cpt-tpl-vue) 本地开发及打包用的.
 
 [![@fe6/vcmd](https://img.shields.io/npm/v/@fe6/vcmd.svg?style=flat-square)](https://www.npmjs.org/package/@fe6/vcmd)
